@@ -1,4 +1,4 @@
-FROM docker.io/chatopia/synapse
+FROM docker.io/chatopia/synapse:working
 
 COPY homeserver.yaml /conf/homeserver.yaml
 
